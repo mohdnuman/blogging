@@ -183,3 +183,7 @@ a{
   font-size: 1.4rem;
 
 }
+
+.card:hover{
+  cursor: pointer;
+}

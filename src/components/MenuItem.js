@@ -9,7 +9,7 @@ class MenuItem extends Component {
   render() {
     return (
         <Box display="inline-block">
-        <Card sx={{ display: "flex", boxShadow:"none",marginRight:"3vw",marginBottom:"5vh"}}>
+        <Card sx={{ display: "flex", boxShadow:"none",marginRight:"3vw",marginBottom:"5vh"}} className="card">
         <CardMedia
             component="img"
             sx={{ width: 180 }}
