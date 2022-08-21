@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Container from "@mui/material/Container";
 import CssBaseline from "@mui/material/CssBaseline";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 class Bottom extends Component {
   render() {
@@ -10,7 +12,7 @@ class Bottom extends Component {
         <Container
           maxWidth="xl"
           sx={{
-            height: "65vh",
+            height: "72vh",
             bgcolor: "black",
             color: "white",
             textAlign: "center",
@@ -29,6 +31,7 @@ class Bottom extends Component {
             />
             <span id="subscribe-button-text">Subscribe now</span>
           </button>
+          <p><a href="https://www.instagram.com/exposingdajjal/?hl=en"><InstagramIcon/></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCsqZAJZt0-nEOiI3kXZi5Ow"><YouTubeIcon/></a></p>
           <Container  maxWidth="md" sx={{
            borderBottom:"1px solid grey",
            borderTop:"1px solid grey",

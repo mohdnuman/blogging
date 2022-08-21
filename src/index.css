@@ -101,6 +101,7 @@ code {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 6vh;
+  margin-bottom: 3vh;
 }
 
 #subscribe-button:hover{
@@ -151,4 +152,8 @@ code {
 .author-and-time-card{
   font-size: 0.5rem;
   color: grey;
+} 
+
+a{
+  color: white;
 }

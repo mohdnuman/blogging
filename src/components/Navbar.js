@@ -26,6 +26,8 @@ class Navbar extends Component {
             <span>Articles</span>
             <span>Poems</span>
             <span>Book Notes</span>
+            <span>Photos</span>
+            <span>Videos</span>
             <span>Contact</span>
 
         </Container>
