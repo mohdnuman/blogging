@@ -10,7 +10,7 @@ class Bottom extends Component {
         <Container
           maxWidth="xl"
           sx={{
-            height: "70vh",
+            height: "65vh",
             bgcolor: "black",
             color: "white",
             textAlign: "center",

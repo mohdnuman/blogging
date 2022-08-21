@@ -32,6 +32,7 @@ class App extends Component {
   
  
   render() {
+    console.log(this.state.blogs);
     return (
       <div>
         <CssBaseline />

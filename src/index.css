@@ -33,8 +33,7 @@ code {
 }
 
 #navbar-subscribe-button{
-  position: relative;
-  right: 0px;
+  align-self: right;
 }
 
 #lower-nav{
@@ -85,6 +84,10 @@ code {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 6vh;
+}
+
+#subscribe-button:hover{
+  cursor: pointer;
 }
 
 .icon{
