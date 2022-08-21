@@ -1,43 +1,52 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import firebase from "./firebase";
-import Home from './components/Home';
-import CssBaseline from '@mui/material/CssBaseline';
-
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Bottom from "./components/Bottom";
+import ContactPage from "./components/ContactPage";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  withRouter,
+} from "react-router-dom";
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={
-      blogs:[],
-      loading:true
+    this.state = {
+      blogs: [],
+      loading: true,
     };
-    this.db=firebase.firestore().collection("blogs");
+    this.db = firebase.firestore().collection("blogs");
   }
 
   componentDidMount() {
-    this.db
-        .onSnapshot((snapshot)=>{
-           
-            const blogs=[];
-            snapshot.forEach((doc)=>{
-              blogs.push(doc.data());
-            })
+    this.db.onSnapshot((snapshot) => {
+      const blogs = [];
+      snapshot.forEach((doc) => {
+        blogs.push(doc.data());
+      });
 
-            this.setState({
-                blogs:blogs,
-                loading:false
-            });
-       
-        });
+      this.setState({
+        blogs: blogs,
+        loading: false,
+      });
+    });
   }
-  
- 
+
   render() {
     console.log(this.state.blogs);
     return (
-      <div>
-        <CssBaseline />
-        <Home />
-      </div>
+      <Router>
+        <div>
+          <Navbar />
+          <Switch>
+          <Route exact path="/" component={withRouter(Home)} />
+          <Route exact path="/contact" component={withRouter(ContactPage)} />
+          </Switch>
+          <Bottom />
+        </div>
+      </Router>
     );
   }
 }

@@ -9,7 +9,7 @@ class Navbar extends Component {
         <CssBaseline />
         <Container
           maxWidth="xl"
-          sx={{ height: "12vh", borderBottom: "1px solid #e0e0e0", paddingTop: "4vh"}}
+          sx={{ height: "15vh", borderBottom: "1px solid #e0e0e0", paddingTop: "4vh",overflow:"hidden"}}
           id="upper-nav"
         >
             <span id="navbar1-text">Thoughts,Stories, and ideas.</span>
@@ -22,13 +22,13 @@ class Navbar extends Component {
           sx={{ height: "8vh", borderBottom: "1px solid #e0e0e0" }}
           id="lower-nav"
         >
-            <span>Home</span>
+            <a href="/"><span>Home</span></a>
             <span>Articles</span>
             <span>Poems</span>
             <span>Book Notes</span>
             <span>Photos</span>
             <span>Videos</span>
-            <span>Contact</span>
+            <a href="/contact"><span>Contact</span></a>
 
         </Container>
       </div>

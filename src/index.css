@@ -154,6 +154,32 @@ code {
   color: grey;
 } 
 
+#lower-nav a{
+  color: black;
+  text-decoration: none;
+
+}
 a{
-  color: white;
+  color:white;
+}
+
+/*-------------------------contact-page--------------------------------------------------*/
+
+#contact-banner{
+  height: auto;
+  width: 50vw;
+  margin: 0vh;
+}
+#contact-heading{
+  font-family: 'Playfair Display', serif;
+}
+#contact a{
+  color: black;
+  
+}
+
+#contact{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+
 }
