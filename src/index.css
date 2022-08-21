@@ -79,6 +79,12 @@ code {
   font-family: 'Poppins', sans-serif;
 }
 
+#poems-heading{
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+
+}
+
 .author-and-time{
   color: grey;
   font-size: 0.7rem;
@@ -161,6 +167,37 @@ code {
 }
 a{
   color:white;
+}
+
+.poems-menu{
+  border-top: 1px solid #e0e0e0;
+  border-bottom:1px solid #e0e0e0;
+  padding-top: 4vh;
+}
+
+.showmore-text{
+  position: relative;
+  top:-7px;
+}
+
+.showmore:hover{
+  color:gray;
+  cursor: pointer;
+}
+
+#article-main-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#article-main-body{
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8rem;
+}
+
+.article-main-author-and-time-card{
+  font-size: 0.7rem;
+  color: grey;
 }
 
 /*-------------------------contact-page--------------------------------------------------*/

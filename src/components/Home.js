@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Latest from "./Latest";
 import Container from "@mui/material/Container";
 import Menu from "./Menu";
+import Poems from "./Poems";
+import Articles from "./Articles";
+import BookNotes from "./BookNotes";
 
 class Home extends Component {
   render() {
@@ -14,6 +17,9 @@ class Home extends Component {
         >
           <Latest />
           <Menu />
+          <Poems/>
+          <Articles/>
+          <BookNotes/>
         </Container>
     );
   }
