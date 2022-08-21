@@ -13,7 +13,7 @@ class Navbar extends Component {
           id="upper-nav"
         >
             <span id="navbar1-text">Thoughts,Stories, and ideas.</span>
-            <span id="navbar-logo" >ED</span>
+            <span id="navbar-logo" ><img src={"logo.jpg"} id="logo" /></span>
             <button id="navbar-subscribe-button">Subscribe</button>
         </Container>
         <CssBaseline />
