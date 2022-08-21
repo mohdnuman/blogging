@@ -32,8 +32,8 @@ code {
 }
 
 #logo{
-  height: 8vw;
-  width: auto;
+  height: auto;
+  width: 15%;
 }
 
 #navbar-subscribe-button{
@@ -133,4 +133,22 @@ code {
 
 #bottom-copyright{
   margin-top: 5vh;
+}
+
+.item-image{
+  height: auto;
+  width: 12vw;
+  display: inline-block;
+}
+
+.item-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  line-height: 0.8vh;
+}
+
+
+.author-and-time-card{
+  font-size: 0.5rem;
+  color: grey;
 }
