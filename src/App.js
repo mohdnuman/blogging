@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import firebase from "./firebase";
+import Home from './components/Home';
+import CssBaseline from '@mui/material/CssBaseline';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      blogs:[],
+      loading:true
+    };
+    this.db=firebase.firestore().collection("blogs");
+  }
+
+  componentDidMount() {
+    this.db
+        .onSnapshot((snapshot)=>{
+           
+            const blogs=[];
+            snapshot.forEach((doc)=>{
+              blogs.push(doc.data());
+            })
+
+            this.setState({
+                blogs:blogs,
+                loading:false
+            });
+       
+        });
+  }
+  
+ 
+  render() {
+    return (
+      <div>
+        <CssBaseline />
+        <Home />
+      </div>
+    );
+  }
 }
 
 export default App;
