@@ -24,7 +24,7 @@ class Latest extends Component {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <p className="author-and-time">BY HASBULLAH SHAFI'IY JUL 8, 2022</p>
+        <p className="author-and-time">BY EXPOSING DAJJAL | JUL 8, 2022</p>
       </Container>
     );
   }
