@@ -14,7 +14,7 @@ class Navbar extends Component {
         >
             <span id="navbar1-text">Thoughts,Stories, and ideas.</span>
             <span id="navbar-logo" >ED</span>
-            <button id="navbar-sucscribe-button">Subscribe</button>
+            <button id="navbar-subscribe-button">Subscribe</button>
         </Container>
         <CssBaseline />
         <Container

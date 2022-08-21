@@ -33,7 +33,20 @@ code {
 }
 
 #navbar-subscribe-button{
-  align-self: right;
+  position: absolute;
+  right: 10vw;
+  background-color: lightgreen;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  color: white;
+}
+
+#navbar-subscribe-button:hover{
+  cursor: pointer;
 }
 
 #lower-nav{
