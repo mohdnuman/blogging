@@ -9,15 +9,8 @@ import Typography from '@mui/material/Typography';
 class MenuItem extends Component {
   render() {
     return (
-      <Container
-        sx={{
-          width: "27vw",
-          margin: "10px",
-          display: "inline-block"
-        }}
-      >
-        <Card sx={{ display: "flex", boxShadow:"none",
-          height:"15vh"}}>
+        <Box display="inline-block">
+        <Card sx={{ display: "flex", boxShadow:"none",marginRight:"3vw",marginBottom:"5vh"}}>
         <CardMedia
             component="img"
             sx={{ width: 180 }}
@@ -40,7 +33,7 @@ class MenuItem extends Component {
           </Box>
           
         </Card>
-      </Container>
+      </Box>
     );
   }
 }
