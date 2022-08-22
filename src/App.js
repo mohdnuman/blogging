@@ -10,6 +10,10 @@ import {
   Switch,
   withRouter,
 } from "react-router-dom";
+import ArticlesPage from "./components/ArticlesPage";
+import PoemsPage from "./components/PoemsPage";
+import BooksPage from "./components/BooksPage";
+import PhotosPage from "./components/PhotosPage";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -43,6 +47,14 @@ class App extends Component {
           <Switch>
           <Route exact path="/" component={withRouter(Home)} />
           <Route exact path="/contact" component={withRouter(ContactPage)} />
+          <Route exact path="/articles" component={withRouter(ArticlesPage)} />
+          <Route exact path="/poems" component={withRouter(PoemsPage)} />
+          <Route exact path="/booknotes" component={withRouter(BooksPage)} />
+          <Route exact path="/photos" component={withRouter(PhotosPage)} />
+
+
+
+
           </Switch>
           <Bottom />
         </div>

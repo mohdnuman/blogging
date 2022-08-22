@@ -23,11 +23,11 @@ class Navbar extends Component {
           id="lower-nav"
         >
             <a href="/"><span>Home</span></a>
-            <span>Articles</span>
-            <span>Poems</span>
-            <span>Book Notes</span>
-            <span>Photos</span>
-            <span>Videos</span>
+            <a href="/articles"><span>Articles</span></a>
+            <a href="/poems"><span>Poems</span></a>
+            <a href="/booknotes"><span>Book Notes</span></a>
+            <a href="/photos"><span>Photos</span></a>
+            <a href="/videos"><span>Videos</span></a>
             <a href="/contact"><span>Contact</span></a>
 
         </Container>
