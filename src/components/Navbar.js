@@ -12,7 +12,7 @@ class Navbar extends Component {
           sx={{ height: "15vh", borderBottom: "1px solid #e0e0e0", paddingTop: "4vh",overflow:"hidden"}}
           id="upper-nav"
         >
-            <span id="navbar1-text">Thoughts,Stories, and ideas.</span>
+            <span id="navbar1-text">Study, Research, Knowledge and Reminders.</span>
             <span id="navbar-logo" ><img src={"logo.jpg"} id="logo" alt="logo"/></span>
             <button id="navbar-subscribe-button">Subscribe</button>
         </Container>

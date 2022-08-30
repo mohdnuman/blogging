@@ -38,7 +38,7 @@ class Articles extends Component {
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <CardContent sx={{ flex: "1 0 auto" }}>
                 <Typography component="div" variant="h6">
-                  <span id="article-main-title">Live From Space</span>
+                  <span id="article-main-title">The Multipolar World Order</span>
                 </Typography>
                 <Typography component="div" variant="h6">
                   <span id="article-main-body">

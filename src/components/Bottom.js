@@ -7,7 +7,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 class Bottom extends Component {
   render() {
     return (
-      <div>
+      <div className="bottom">
         <CssBaseline />
         <Container
           maxWidth="xl"
