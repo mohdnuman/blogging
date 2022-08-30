@@ -27,7 +27,7 @@ class Poems extends Component {
           <MenuItem/>
           <MenuItem/>
         </div>
-        <p align="right" className="showmore"><span className="showmore-text">Show more</span><ArrowForwardIcon /></p>
+        <p align="right" className="showmore"><a className="black-color-a" href="/poems"><span className="showmore-text">Show more</span><ArrowForwardIcon /></a></p>
         
       </Container>
     );

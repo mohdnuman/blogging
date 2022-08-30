@@ -15,7 +15,7 @@ class Articles extends Component {
         maxWidth="md"
         sx={{
           paddingTop: "4vh",
-          paddingBottom: "4vh"
+          paddingBottom: "4vh",
         }}
       >
         <h3>ARTICLES</h3>
@@ -31,22 +31,23 @@ class Articles extends Component {
           >
             <CardMedia
               component="img"
-              sx={{ width: 480 }}
-              image="https://www.hasbullahshafi.com/content/images/size/w1200/2022/06/Solzhenitsyn-s-Table.jpeg"
+              sx={{ width: "30vw" }}
+              image="./article1.jpg"
               alt="Live from space album cover"
             />
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <CardContent sx={{ flex: "1 0 auto" }}>
                 <Typography component="div" variant="h6">
-                  <span id="article-main-title">The Multipolar World Order</span>
+                  <span id="article-main-title">
+                    The Multipolar World Order
+                  </span>
                 </Typography>
                 <Typography component="div" variant="h6">
                   <span id="article-main-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    The oppressors will always be on the wrong side of history
+                    and the oppressed will triumph over the oppressors
+                    eventually, that is how the history will end with Truth
+                    prevailing over all its rivals.
                   </span>
                 </Typography>
                 <Typography
@@ -55,7 +56,7 @@ class Articles extends Component {
                   component="div"
                 >
                   <span className="article-main-author-and-time-card">
-                    BY EXPOSING DAJJAL | JUL 8, 2022
+                    BY EXPOSING DAJJAL | AUG 30, 2022
                   </span>
                 </Typography>
               </CardContent>
@@ -66,7 +67,7 @@ class Articles extends Component {
           <MenuItem />
         </div>
         <p align="right" className="showmore">
-          <span className="showmore-text">Show more</span>
+          <a href="/articles" className="black-color-a"><span className="showmore-text">Show more</span></a>
           <ArrowForwardIcon />
         </p>
       </Container>

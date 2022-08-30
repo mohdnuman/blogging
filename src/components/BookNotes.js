@@ -32,7 +32,7 @@ class BookNotes extends Component {
           >
             <CardMedia
               component="img"
-              sx={{ width: 480 }}
+              sx={{ width: "30vw" }}
               image="https://www.hasbullahshafi.com/content/images/size/w1200/2022/06/Solzhenitsyn-s-Table.jpeg"
               alt="Live from space album cover"
             />
@@ -67,7 +67,7 @@ class BookNotes extends Component {
           <MenuItem />
         </div>
         <p align="right" className="showmore">
-          <span className="showmore-text">Show more</span>
+          <a href="/booknotes" className="black-color-a"><span className="showmore-text">Show more</span></a>
           <ArrowForwardIcon />
         </p>
       </Container>

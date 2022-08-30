@@ -69,6 +69,33 @@ code {
   cursor: pointer;
   color: grey;
 }
+@media only screen and (min-width: 600px) {
+  #nav-menu{
+    display: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .lower-nav-big-screen{
+   display:none;
+  }
+  #lower-nav{
+    height:15vh
+  }
+  #navbar-subscribe-button{
+    display: none;
+  }
+  #navbar1-text{
+    display: none;
+  }
+  
+  #logo{
+    position: absolute;
+    left: 180%;
+    height: auto;
+    width: 30vw;
+  }
+}
 
 #latest-category{
   font-family: 'Playfair Display', serif;
@@ -140,6 +167,7 @@ code {
 
 #bottom-copyright{
   margin-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .item-image{
@@ -279,5 +307,10 @@ code {
   font-size: 0.8rem;
   color: green;
   font-weight: 600;
+}
+
+.image-main-page{
+  width: 60vw;
+  height: auto;
 }
 

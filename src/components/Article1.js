@@ -17,7 +17,7 @@ class Article1 extends Component {
         >
             <span className="articles-section-heading">ARTICLES</span>
           <h1 className="playfair-heading-lg">The Multipolar World Order</h1>
-          <img src={"./article1.jpg"} alt="article1"/>
+          <img src={"./article1.jpg"} alt="article1" className="image-main-page"/>
 
           <p>
             The oppressors will always be on the wrong side of history and the

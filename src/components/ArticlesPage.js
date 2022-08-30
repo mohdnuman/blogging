@@ -50,7 +50,7 @@ class ArticlesPage extends Component {
                   the oppressed will triumph over the oppressors eventually
                 </p>
                 <span className="author-and-time-card-3">
-                  BY EXPOSING DAJJAL | JUL 8, 2022
+                  BY EXPOSING DAJJAL | AUG 30, 2022
                 </span>
               </Grid>
             </Grid>

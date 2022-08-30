@@ -3,22 +3,20 @@ import Container from "@mui/material/Container";
 import CssBaseline from "@mui/material/CssBaseline";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Box } from "@mui/system";
 
 class Bottom extends Component {
   render() {
     return (
       <div className="bottom">
         <CssBaseline />
-        <Container
-          maxWidth="xl"
-          sx={{
-            height: "72vh",
+        <Box sx={{
             bgcolor: "black",
             color: "white",
             textAlign: "center",
             paddingTop: "4vh",
-          }}
-        >
+          }}>
+     
           <h1 id="bottom-subscribe-heading">Subscribe to Exposing Dajjal</h1>
           <h2 id="bottom-subscribe-info">
             Sign up to receive updates every time something new is published.
@@ -43,7 +41,7 @@ class Bottom extends Component {
             <span className="bottom-links">Sign up</span>
           </Container>
           <p className="author-and-time" id="bottom-copyright">Exposing Dajjal © 2022. </p>
-        </Container>
+        </Box>
       </div>
     );
   }
