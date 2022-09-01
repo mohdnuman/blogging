@@ -7,12 +7,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-// const style = {
-//   // Adding media query..
-//   "@media (min-width: 600px)": {
-//     display: "none"
-//   },
-// };
+
 class Navbar extends Component {
   render() {
     return (
