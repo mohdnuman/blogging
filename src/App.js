@@ -14,7 +14,9 @@ import ArticlesPage from "./components/ArticlesPage";
 import PoemsPage from "./components/PoemsPage";
 import BooksPage from "./components/BooksPage";
 import PhotosPage from "./components/PhotosPage";
-import Article1 from "./components/Article1";
+import Article1 from "./components/articles/Article1";
+import Poem1 from "./components/poems/Poem1";
+
 
 class App extends Component {
   constructor(props) {
@@ -53,6 +55,8 @@ class App extends Component {
           <Route exact path="/article1" component={withRouter(Article1)} />
 
           <Route exact path="/poems" component={withRouter(PoemsPage)} />
+          <Route exact path="/poem1" component={withRouter(Poem1)} />
+
           <Route exact path="/booknotes" component={withRouter(BooksPage)} />
           <Route exact path="/photos" component={withRouter(PhotosPage)} />
 

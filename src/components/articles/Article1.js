@@ -3,7 +3,6 @@ import Container from "@mui/material/Container";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsappIcon from "@mui/icons-material/WhatsApp";
 import { Telegram, Twitter } from "@mui/icons-material";
-import { CopyAll } from "@mui/icons-material";
 
 class Article1 extends Component {
   render() {
@@ -247,6 +246,7 @@ class Article1 extends Component {
             <p>
               Share it With Your Friends And Family
               <br />
+              <br/>
               <a
                 className="black-color-a"
                 href="whatsapp://send?text= https://www.exposingdajjal.com/article1"
