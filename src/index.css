@@ -79,6 +79,9 @@ code {
   #navbar2-text{
     display: none;
   }
+  .short-screen-nav{
+    display: none;
+  }
   
 }
 

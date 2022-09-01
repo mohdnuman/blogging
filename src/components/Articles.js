@@ -19,6 +19,7 @@ class Articles extends Component {
         }}
       >
         <h3>ARTICLES</h3>
+        <a href="/article1" className="black-color-a">
         <Box display="inline-block">
           <Card
             sx={{
@@ -63,6 +64,7 @@ class Articles extends Component {
             </Box>
           </Card>
         </Box>
+        </a>
         <div className="poems-menu">
           <MenuItem />
         </div>

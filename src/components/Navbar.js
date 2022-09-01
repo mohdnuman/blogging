@@ -7,12 +7,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-const style = {
-  // Adding media query..
-  "@media only screen and (minWidth: 600px)": {
-    display: "none",
-  },
-};
+// const style = {
+//   // Adding media query..
+//   "@media (min-width: 600px)": {
+//     display: "none"
+//   },
+// };
 class Navbar extends Component {
   render() {
     return (
@@ -69,7 +69,8 @@ class Navbar extends Component {
             </a>
           </span>
 
-          <FormControl fullWidth style={style}>
+<div className="short-screen-nav">
+          <FormControl fullWidth>
             <InputLabel id="demo-simple-select-label">Home</InputLabel>
             <Select
               labelId="demo-simple-select-label"
@@ -100,6 +101,7 @@ class Navbar extends Component {
               </a>
             </Select>
           </FormControl>
+          </div>
         </Container>
       </div>
     );
