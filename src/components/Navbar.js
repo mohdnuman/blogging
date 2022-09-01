@@ -8,10 +8,9 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
 const style = {
-
   // Adding media query..
-  '@media only screen and (minWidth: 600px)': {
-    display: 'none',
+  "@media only screen and (minWidth: 600px)": {
+    display: "none",
   },
 };
 class Navbar extends Component {
@@ -30,11 +29,14 @@ class Navbar extends Component {
           id="upper-nav"
         >
           <span id="navbar1-text">
-            Study, Research, Knowledge and Reminders.
+            Eschatology, Research, Knowledge and Reminders.
           </span>
-          <span id="navbar-logo">
+          <span id="navbar2-text">
+            Eschatology, Research, Knowledge and Reminders.
+          </span>
+          <div id="navbar-logo" align="center">
             <img src={"logo.jpg"} id="logo" alt="logo" />
-          </span>
+          </div>
           <button id="navbar-subscribe-button">Subscribe</button>
         </Container>
         <CssBaseline />
@@ -67,38 +69,37 @@ class Navbar extends Component {
             </a>
           </span>
 
-       
-            <FormControl fullWidth style={style}>
-              <InputLabel id="demo-simple-select-label">Home</InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                // value={age}
-                label="Page"
-              >
-                <a href="/" className="black-color-a">
-                  <MenuItem>Home</MenuItem>
-                </a>
-                <a href="/articles" className="black-color-a">
-                  <MenuItem>Articles</MenuItem>
-                </a>
-                <a href="/poems" className="black-color-a">
-                  <MenuItem>Poems</MenuItem>
-                </a>
-                <a href="/booknotes" className="black-color-a">
-                  <MenuItem>Book Notes</MenuItem>
-                </a>
-                <a href="/photos" className="black-color-a">
-                  <MenuItem>Photos</MenuItem>
-                </a>
-                <a href="/videos" className="black-color-a">
-                  <MenuItem>Videos</MenuItem>
-                </a>
-                <a href="/contact" className="black-color-a">
-                  <MenuItem>Contact</MenuItem>
-                </a>
-              </Select>
-            </FormControl>
+          <FormControl fullWidth style={style}>
+            <InputLabel id="demo-simple-select-label">Home</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              // value={age}
+              label="Page"
+            >
+              <a href="/" className="black-color-a">
+                <MenuItem>Home</MenuItem>
+              </a>
+              <a href="/articles" className="black-color-a">
+                <MenuItem>Articles</MenuItem>
+              </a>
+              <a href="/poems" className="black-color-a">
+                <MenuItem>Poems</MenuItem>
+              </a>
+              <a href="/booknotes" className="black-color-a">
+                <MenuItem>Book Notes</MenuItem>
+              </a>
+              <a href="/photos" className="black-color-a">
+                <MenuItem>Photos</MenuItem>
+              </a>
+              <a href="/videos" className="black-color-a">
+                <MenuItem>Videos</MenuItem>
+              </a>
+              <a href="/contact" className="black-color-a">
+                <MenuItem>Contact</MenuItem>
+              </a>
+            </Select>
+          </FormControl>
         </Container>
       </div>
     );

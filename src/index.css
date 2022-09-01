@@ -27,14 +27,16 @@ code {
 }
 
 #navbar-logo{
-  position: absolute;
-  top: -2vh;
-  padding-left: 16vw;
+  display: inline-block;
+  margin-top: -8vh;
+  /* position: absolute; */
+  /* top: -2vh; */
+  /* padding-left: 16vw; */
 }
 
 #logo{
   height: auto;
-  width: 15%;
+  width: 9%;
 }
 
 #navbar-subscribe-button{
@@ -74,6 +76,10 @@ code {
   #nav-menu{
     display: hidden;
   }
+  #navbar2-text{
+    display: none;
+  }
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,12 +95,17 @@ code {
   #navbar1-text{
     display: none;
   }
+  #navbar2-text{
+    font-size: 0.55rem;
+    font-weight: 800;
+  }
   
   #logo{
     position: absolute;
-    left: 180%;
+    top: 0vh;
+    /* left: 180%; */
     height: auto;
-    width: 30vw;
+    width: 27vw;
   }
 }
 
