@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#upper-nav{
+#upper-nav {
   position: relative;
 }
-#navbar1-text{
-  font-family: 'Poppins', sans-serif;
+#navbar1-text {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
   float: left;
   padding-left: 8vw;
 }
 
-#navbar-logo{
+#navbar-logo {
   display: inline-block;
   margin-top: -8vh;
   /* position: absolute; */
@@ -34,12 +34,12 @@ code {
   /* padding-left: 16vw; */
 }
 
-#logo{
+#logo {
   height: auto;
   width: 9%;
 }
 
-#navbar-subscribe-button{
+#navbar-subscribe-button {
   position: absolute;
   right: 10vw;
   background-color: lightgreen;
@@ -52,97 +52,101 @@ code {
   color: white;
 }
 
-#navbar-subscribe-button:hover{
+#navbar-subscribe-button:hover {
   cursor: pointer;
 }
 
-#lower-nav{
+#lower-nav {
   text-align: center;
   padding-top: 2vh;
 }
 
-#lower-nav span{
+#lower-nav span {
   padding-right: 1vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
 }
 
-#lower-nav span:hover{
+#lower-nav span:hover {
   cursor: pointer;
   color: grey;
 }
 @media only screen and (min-width: 600px) {
-  #nav-menu{
+  #nav-menu {
     display: hidden;
   }
-  #navbar2-text{
+  #navbar2-text {
     display: none;
   }
-  .short-screen-nav{
+  .short-screen-nav {
     display: none;
   }
+
   
 }
 
 @media only screen and (max-width: 600px) {
-  .lower-nav-big-screen{
-   display:none;
-  }
-  #lower-nav{
-    height:15vh
-  }
-  #navbar-subscribe-button{
+  .lower-nav-big-screen {
     display: none;
   }
-  #navbar1-text{
+  #lower-nav {
+    height: 15vh;
+  }
+  #navbar-subscribe-button {
     display: none;
   }
-  #navbar2-text{
+  #navbar1-text {
+    display: none;
+  }
+  #navbar2-text {
     font-size: 0.55rem;
     font-weight: 800;
   }
-  
-  #logo{
+
+  #logo {
     position: absolute;
     top: 0vh;
     /* left: 180%; */
     height: auto;
     width: 27vw;
   }
+
+  .sign-up-button{
+    display: none;
+  }
 }
 
-#latest-category{
-  font-family: 'Playfair Display', serif;
+#latest-category {
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
 }
 
-#latest-heading{
-  font-family: 'Poppins', sans-serif;
+#latest-heading {
+  font-family: "Poppins", sans-serif;
 }
 
-#poems-heading{
-  font-family: 'Playfair Display', serif;
+#poems-heading {
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
-
 }
 
-.author-and-time{
+.author-and-time {
   color: grey;
   font-size: 0.7rem;
 }
 
-#bottom-subscribe-heading{
-  font-family: 'Playfair Display', serif;
+#bottom-subscribe-heading {
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
 }
 
-#bottom-subscribe-info{
+#bottom-subscribe-info {
   font-weight: 300;
   font-size: 1.2rem;
 }
 
-#subscribe-button{
+#subscribe-button {
   background-color: white;
   border-radius: 25px;
   padding: 5px;
@@ -152,190 +156,214 @@ code {
   margin-bottom: 3vh;
 }
 
-#subscribe-button:hover{
+#subscribe-button:hover {
   cursor: pointer;
 }
 
-.icon{
+.icon {
   height: 3vh;
   width: auto;
   padding-right: 5px;
 }
 
-#subscribe-button-text{
+#subscribe-button-text {
   position: relative;
   top: -4px;
   font-size: 1rem;
   font-weight: 500;
-  
 }
 
-.bottom-links{
+.bottom-links {
   margin-left: 2vw;
   font-size: 0.85rem;
 }
 
-.bottom-links:hover{
+.bottom-links:hover {
   cursor: pointer;
   color: grey;
 }
 
-#bottom-copyright{
+#bottom-copyright {
   margin-top: 5vh;
   padding-bottom: 5vh;
 }
 
-.item-image{
+.item-image {
   height: auto;
   width: 12vw;
   display: inline-block;
 }
 
-.item-title{
-  font-family: 'Playfair Display', serif;
-  font-size: 0.9rem;
+.item-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
   line-height: 0.8vh;
 }
 
-
-.author-and-time-card{
-  font-size: 0.5rem;
+.author-and-time-card {
+  font-size: 0.7rem;
   color: grey;
-} 
+}
 
-#lower-nav a{
+#lower-nav a {
   color: black;
   text-decoration: none;
-
 }
-.bottom a{
-  color:white;
+.bottom a {
+  color: white;
 }
 
-.poems-menu{
+.poems-menu {
   /* border-top: 1px solid #e0e0e0; */
-  border-bottom:1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   padding-top: 4vh;
 }
 
-.showmore-text{
+.showmore-text {
   position: relative;
-  top:-7px;
+  top: -7px;
 }
 
-.showmore:hover{
-  color:gray;
+.showmore:hover {
+  color: gray;
   cursor: pointer;
 }
 
-#article-main-title{
-  font-family: 'Playfair Display', serif;
+#article-main-title {
+  font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
-#article-main-body{
-  font-family: 'Playfair Display', serif;
+#article-main-body {
+  font-family: "Playfair Display", serif;
   font-size: 0.8rem;
 }
 
-.article-main-author-and-time-card{
+.article-main-author-and-time-card {
   font-size: 0.7rem;
   color: grey;
 }
 
 /*-------------------------contact-page--------------------------------------------------*/
 
-#contact-banner{
+#contact-banner {
   height: auto;
   width: 50vw;
   margin: 0vh;
 }
-#contact-heading{
-  font-family: 'Playfair Display', serif;
+#contact-heading {
+  font-family: "Playfair Display", serif;
 }
-#contact a{
+#contact a {
   color: black;
-  
 }
 
-#contact{
-  font-family: 'Playfair Display', serif;
+#contact {
+  font-family: "Playfair Display", serif;
   font-size: 1.4rem;
-
 }
 
-.card:hover{
+.card:hover {
   cursor: pointer;
 }
 
 /*------------------articles-page------------------*/
 
-.page-banner{
+.page-banner {
   width: 100%;
   height: 50vh;
 }
 
-.page-heading{
+.page-heading {
   font-size: 4rem;
   color: white;
   position: relative;
   top: -25vh;
 }
 
-.page-main-banner{
+.page-main-banner {
   width: auto;
   height: 40vh;
   object-fit: cover;
 }
 
-.author-and-time-card-3{
+.author-and-time-card-3 {
   font-size: 1rem;
   color: gray;
 }
 
-.playfair-heading{
-  font-family: 'Playfair Display', serif;
+.playfair-heading {
+  font-family: "Playfair Display", serif;
   font-size: 1.8rem;
 }
 
-.playfair-heading-lg{
-  font-family: 'Playfair Display', serif;
+.playfair-heading-lg {
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
 }
 
-
-.page-bottom-menu{
+.page-bottom-menu {
   margin-top: 4vh;
-  
 }
 
-.main-article:hover{
+.main-article:hover {
   cursor: pointer;
 }
 
-.black-color-a{
+.black-color-a {
   color: black;
   text-decoration: none;
 }
 
-.articles-section-heading{
+.articles-section-heading {
   font-size: 0.8rem;
   color: green;
   font-weight: 600;
 }
 
-.image-main-page{
+.image-main-page {
   width: 60vw;
   height: auto;
 }
 
-.body-text{
-  font-family: 'Poppins', sans-serif;
+.body-text {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
 
-.poem1-image{
+.poem1-image {
   height: auto;
   width: 30vw;
+}
+
+.subscribe-input {
+  width: 30vw;
+  height: 5vh;
+  border: 0px;
+  border-bottom:2px solid black ;
+  /* border-radius: 10px; */
+  margin-right: 2vw;
+}
+
+.subscribe-button-modal {
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 6vh;
+  margin-bottom: 3vh;
+  font-weight: 600;
+}
+
+.subscribe-button-modal:hover{
+  cursor: pointer;
+}
+
+.subscribe-modal-heading{
+  color: black;
+  margin-bottom: 0 add .;
+  font-family: "Playfair Display", serif;
+
 }

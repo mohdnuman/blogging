@@ -15,7 +15,7 @@ class Menu extends Component {
               ,borderBottom:"1px solid #e0e0e0"
             }}
           >
-            <a href="/poem1"><MenuItemTemplate title="A Couplet On Muhammad" image="poem1.jpg" date="BY EXPOSING DAJJAL | SEP 01, 2022"/></a>
+            <a href="/poem1"><MenuItemTemplate title="A Couplet On Muhammad ﷺ" image="poem1.jpg" date="BY EXPOSING DAJJAL | SEP 01, 2022"/></a>
 
 
           </Container>

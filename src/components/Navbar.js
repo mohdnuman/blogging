@@ -6,9 +6,40 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import Modal from "@mui/material/Modal";
 
+const style = {
+  position: "absolute",
+  top: "40%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: "50vw",
+  height: "30vh",
+  bgcolor: "white",
+  border: "2px solid black",
+  borderRadius:"10px",
+  boxShadow: 24,
+  p: 4,
+};
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false,
+    };
+  }
+  handleOpen = () => {
+    this.setState({
+      open: true,
+    });
+  };
+
+  handleClose = () => {
+    this.setState({
+      open: false,
+    });
+  };
   render() {
     return (
       <div>
@@ -32,7 +63,7 @@ class Navbar extends Component {
           <div id="navbar-logo" align="center">
            <a href="/"><img src={"logo.jpg"} id="logo" alt="logo" /></a> 
           </div>
-          <button id="navbar-subscribe-button">Subscribe</button>
+          <button id="navbar-subscribe-button" onClick={this.handleOpen}>Subscribe</button>
         </Container>
         <CssBaseline />
         <Container
@@ -98,6 +129,21 @@ class Navbar extends Component {
           </FormControl>
           </div>
         </Container>
+
+        <Modal
+          open={this.state.open}
+          onClose={this.handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <h1 className="subscribe-modal-heading">Subscribe to Exposing Dajjal</h1>
+            <span>
+              <input placeholder="Email" className="subscribe-input"/>
+              <button className="subscribe-button-modal" onClick={this.handleClose}>Subscribe</button>
+            </span>
+          </Box>
+        </Modal>
       </div>
     );
   }
