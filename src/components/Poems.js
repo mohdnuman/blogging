@@ -14,6 +14,7 @@ class Poems extends Component {
         }}
       >
         <h3>POEMS</h3>
+        <a href="/poem1" className="black-color-a">
         <h1 id="poems-heading">A Couplet On Muhammad</h1>
         <p>
           Muhammad (God's peace and blessings be upon him). The Last Messenger
@@ -22,6 +23,7 @@ class Poems extends Component {
           led.
         </p>
         <p className="author-and-time">BY EXPOSING DAJJAL | SEP 01, 2022</p>
+        </a>
         <div className="poems-menu">
           <MenuItem />
           <MenuItem />
