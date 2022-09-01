@@ -15,7 +15,7 @@ class Poems extends Component {
       >
         <h3>POEMS</h3>
         <a href="/poem1" className="black-color-a">
-        <h1 id="poems-heading">A Couplet On Muhammad</h1>
+        <h1 id="poems-heading">A Couplet On Muhammad ﷺ</h1>
         <p>
           Muhammad (God's peace and blessings be upon him). The Last Messenger
           Of God In Christian And Hindu Scriptures.He will be mentioned in every
@@ -25,15 +25,15 @@ class Poems extends Component {
         <p className="author-and-time">BY EXPOSING DAJJAL | SEP 01, 2022</p>
         </a>
         <div className="poems-menu">
-          <MenuItem />
-          <MenuItem />
+          {/* <MenuItem /> */}
+          {/* <MenuItem /> */}
         </div>
-        <p align="right" className="showmore">
+        {/* <p align="right" className="showmore">
           <a className="black-color-a" href="/poems">
             <span className="showmore-text">Show more</span>
             <ArrowForwardIcon />
           </a>
-        </p>
+        </p> */}
       </Container>
     );
   }

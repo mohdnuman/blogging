@@ -42,7 +42,7 @@ class PoemsPage extends Component {
               </Grid>
               <Grid xs={5} sx={{ textAlign: "left" }}>
                 <h1 className="playfair-heading">
-                  A Couplet On Muhammad
+                  A Couplet On Muhammad ﷺ
                 </h1>
                 <p>
                 Muhammad (God's peace and blessings be upon him).
@@ -60,7 +60,7 @@ class PoemsPage extends Component {
           </a>
           </div>
           <div align="center" className="page-bottom-menu">
-            <MenuItem />
+            {/* <MenuItem /> */}
           </div>
         </Container>
         

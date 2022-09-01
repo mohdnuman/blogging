@@ -58,7 +58,7 @@ class ArticlesPage extends Component {
           </a>
           </div>
           <div align="center" className="page-bottom-menu">
-            <MenuItem />
+            {/* <MenuItem /> */}
           </div>
         </Container>
         

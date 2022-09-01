@@ -66,12 +66,12 @@ class Articles extends Component {
         </Box>
         </a>
         <div className="poems-menu">
-          <MenuItem />
+          {/* <MenuItem /> */}
         </div>
-        <p align="right" className="showmore">
+        {/* <p align="right" className="showmore">
           <a href="/articles" className="black-color-a"><span className="showmore-text">Show more</span></a>
           <ArrowForwardIcon />
-        </p>
+        </p> */}
       </Container>
     );
   }

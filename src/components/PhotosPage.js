@@ -4,8 +4,8 @@ class PhotosPage extends Component {
     render() {
         return (
             <div>
-                
-            </div>
+            <h1 align="center" style={{fontFamily:"",height:"40vh",paddingTop:"15vh"}}>Oops, No Content Here 🚫</h1>
+          </div>
         );
     }
 }

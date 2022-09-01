@@ -30,7 +30,7 @@ class Navbar extends Component {
             Eschatology, Research, Knowledge and Reminders.
           </span>
           <div id="navbar-logo" align="center">
-            <img src={"logo.jpg"} id="logo" alt="logo" />
+           <a href="/"><img src={"logo.jpg"} id="logo" alt="logo" /></a> 
           </div>
           <button id="navbar-subscribe-button">Subscribe</button>
         </Container>

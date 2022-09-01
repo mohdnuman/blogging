@@ -16,7 +16,7 @@ class Poem1 extends Component {
           sx={{ display: "inline-block", padding: "4vh", fontSize: "1.3rem" }}
         >
           <span className="articles-section-heading">POEMS</span>
-          <h1 className="playfair-heading-lg">A Couplet On Muhammad</h1>
+          <h1 className="playfair-heading-lg">A Couplet On Muhammad ﷺ</h1>
           <img src={"./poem1.jpg"} alt="poem1" className="poem1-image" />
           <div className="body-text">
             <p>

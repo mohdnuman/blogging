@@ -19,7 +19,7 @@ class Home extends Component {
           <Menu />
           <Poems/>
           <Articles/>
-          <BookNotes/>
+          {/* <BookNotes/> */}
         </Container>
     );
   }

@@ -14,6 +14,7 @@ import ArticlesPage from "./components/ArticlesPage";
 import PoemsPage from "./components/PoemsPage";
 import BooksPage from "./components/BooksPage";
 import PhotosPage from "./components/PhotosPage";
+import VideosPage from "./components/VideosPage";
 import Article1 from "./components/articles/Article1";
 import Poem1 from "./components/poems/Poem1";
 
@@ -59,6 +60,8 @@ class App extends Component {
 
           <Route exact path="/booknotes" component={withRouter(BooksPage)} />
           <Route exact path="/photos" component={withRouter(PhotosPage)} />
+          <Route exact path="/videos" component={withRouter(VideosPage)} />
+
 
 
 
