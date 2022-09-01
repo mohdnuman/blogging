@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Container from "@mui/material/Container";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsappIcon from "@mui/icons-material/WhatsApp";
-import { Telegram } from "@mui/icons-material";
+import { Telegram, Twitter } from "@mui/icons-material";
+import { CopyAll } from "@mui/icons-material";
 
 class Article1 extends Component {
   render() {
@@ -244,20 +245,34 @@ class Article1 extends Component {
               him) will remain a dominant force till the Day of Judgement.
             </p>
             <p>
+              Share it With Your Friends And Family
+              <br />
               <a
                 className="black-color-a"
                 href="whatsapp://send?text= https://www.exposingdajjal.com/article1"
                 data-action="share/whatsapp/share"
                 target="_blank"
+                style={{ marginTop: "10vh", marginRight: "3vh" }}
               >
                 <WhatsappIcon />
               </a>
               <a
                 className="black-color-a"
                 href="https://t.me/share/url?url= https://www.exposingdajjal.com/article1"
+                style={{ marginTop: "10vh", marginRight: "3vh" }}
               >
                 <Telegram />
               </a>
+              <a
+                href="https://twitter.com/share"
+                class="black-color-a"
+                data-text="Check out this article from Exposing Dajjal"
+                data-url="https://www.exposingdajjal.com/article1"
+                data-show-count="false"
+              >
+                <Twitter />
+              </a>
+     
             </p>
           </div>
         </Container>
