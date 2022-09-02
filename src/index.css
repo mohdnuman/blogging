@@ -392,3 +392,17 @@ code {
   font-family: "Playfair Display", serif;
 
 }
+
+.small-screen-email-input{
+  border:0;
+  border-bottom: 2px solid white;
+  background-color: black;
+}
+
+.small-screen-subscribe{
+  width: 30vw;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  margin-left: 5vw;
+}

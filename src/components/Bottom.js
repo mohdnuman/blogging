@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Container from "@mui/material/Container";
 import CssBaseline from "@mui/material/CssBaseline";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box } from "@mui/system";
 import Modal from "@mui/material/Modal";
-import Button from "@mui/material/Button"
+import Button from "@mui/material/Button";
 
 const style = {
   position: "absolute",
@@ -16,7 +16,7 @@ const style = {
   height: "30vh",
   bgcolor: "white",
   border: "2px solid black",
-  borderRadius:"10px",
+  borderRadius: "10px",
   boxShadow: 24,
   p: 4,
 };
@@ -26,6 +26,7 @@ class Bottom extends Component {
     super(props);
     this.state = {
       open: false,
+      subscribed:false
     };
   }
   handleOpen = () => {
@@ -39,41 +40,84 @@ class Bottom extends Component {
       open: false,
     });
   };
+
+  handleSubscribe=()=>{
+    this.setState({
+      subscribed:true
+    })
+  }
   render() {
     return (
       <div className="bottom">
         <CssBaseline />
-        <Box sx={{
+        <Box
+          sx={{
             bgcolor: "black",
             color: "white",
             textAlign: "center",
             paddingTop: "4vh",
-          }}>
-     
+          }}
+        >
           <h1 id="bottom-subscribe-heading">Subscribe to Exposing Dajjal</h1>
           <h2 id="bottom-subscribe-info">
             Sign up to receive updates every time something new is published.
           </h2>
-          <button id="subscribe-button" onClick={this.handleOpen} className="sign-up-button">
+          <button
+            id="subscribe-button"
+            onClick={this.handleOpen}
+            className="sign-up-button"
+          >
             <img
               src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
               className="icon"
               alt="mail-icon"
             />
-            <span id="subscribe-button-text" >Subscribe now</span>
+            <span id="subscribe-button-text">Subscribe now</span>
           </button>
-          <p><a href="https://www.instagram.com/exposingdajjal/?hl=en"><InstagramIcon/></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCsqZAJZt0-nEOiI3kXZi5Ow"><YouTubeIcon/></a></p>
-          <Container  maxWidth="md" sx={{
-           borderBottom:"1px solid grey",
-           borderTop:"1px solid grey",
-           height: "7vh",
-           marginTop:"5vh",
-           paddingTop:"1vh"
-          }}>
-            <a href="/about" style={{textDecoration:"none"}}><span className="bottom-links">About</span></a>
-            <span className="bottom-links sign-up-button" onClick={this.handleOpen} style={{paddingLeft:"2vw"}} >Sign up</span>
+
+          <div className="small-screen-main-article">
+          <input placeholder="Email" className="small-screen-email-input" />
+          {!this.state.subscribed&&<button className="small-screen-subscribe" onClick={this.handleSubscribe}>
+            Subscribe
+          </button>}
+          {this.state.subscribed&&<button className="small-screen-subscribe" onClick={this.handleSubscribe} disabled>
+            Subscribed ✔️
+          </button>}
+        </div>
+
+          <p>
+            <a href="https://www.instagram.com/exposingdajjal/?hl=en">
+              <InstagramIcon />
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://www.youtube.com/channel/UCsqZAJZt0-nEOiI3kXZi5Ow">
+              <YouTubeIcon />
+            </a>
+          </p>
+          <Container
+            maxWidth="md"
+            sx={{
+              borderBottom: "1px solid grey",
+              borderTop: "1px solid grey",
+              height: "7vh",
+              marginTop: "5vh",
+              paddingTop: "1vh",
+            }}
+          >
+            <a href="/about" style={{ textDecoration: "none" }}>
+              <span className="bottom-links">About</span>
+            </a>
+            <span
+              className="bottom-links sign-up-button"
+              onClick={this.handleOpen}
+              style={{ paddingLeft: "2vw" }}
+            >
+              Sign up
+            </span>
           </Container>
-          <p className="author-and-time" id="bottom-copyright">Exposing Dajjal © 2022. </p>
+          <p className="author-and-time" id="bottom-copyright">
+            Exposing Dajjal © 2022.{" "}
+          </p>
         </Box>
 
         <Modal
@@ -83,13 +127,22 @@ class Bottom extends Component {
           aria-describedby="modal-modal-description"
         >
           <Box sx={style}>
-            <h1 className="subscribe-modal-heading">Subscribe to Exposing Dajjal</h1>
+            <h1 className="subscribe-modal-heading">
+              Subscribe to Exposing Dajjal
+            </h1>
             <span>
-              <input placeholder="Email" className="subscribe-input"/>
-              <button className="subscribe-button-modal" onClick={this.handleClose}>Subscribe</button>
+              <input placeholder="Email" className="subscribe-input" />
+              <button
+                className="subscribe-button-modal"
+                onClick={this.handleClose}
+              >
+                Subscribe
+              </button>
             </span>
           </Box>
         </Modal>
+
+        
       </div>
     );
   }
