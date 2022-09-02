@@ -21,6 +21,7 @@ class Articles extends Component {
         <h3>ARTICLES</h3>
         <a href="/article1" className="black-color-a">
         <Box display="inline-block">
+          <div className="big-screen-main-article">
           <Card
             sx={{
               display: "flex",
@@ -63,6 +64,28 @@ class Articles extends Component {
               </CardContent>
             </Box>
           </Card>
+          </div>
+          <div className="small-screen-main-article" >
+          <div>
+                <img
+                  src={"./article1.jpg"}
+                  className="page-main-banner-small"
+                  alt="page-main-banner"
+                />
+              </div>
+              <div>
+                <h1 className="playfair-heading-sm">
+                  The Multipolar World Order
+                </h1>
+                <p className="main-article-body">
+                  The oppressors will always be on the wrong side of history and
+                  the oppressed will triumph over the oppressors eventually
+                </p>
+                <span className="author-and-time-card-sm">
+                  BY EXPOSING DAJJAL | AUG 30, 2022
+                </span>
+                </div>
+          </div>
         </Box>
         </a>
         <div className="poems-menu">
