@@ -33,6 +33,7 @@ class ArticlesPage extends Component {
             }}
             className="main-article"
           >
+            <div  className="big-screen-main-article">
             <Grid container spacing={1}>
               <Grid xs={7} sx={{ overflow: "hidden" }}>
                 <img
@@ -54,6 +55,31 @@ class ArticlesPage extends Component {
                 </span>
               </Grid>
             </Grid>
+            </div>
+
+            <div className="small-screen-main-article">
+            
+              <div>
+                <img
+                  src={"./article1.jpg"}
+                  className="page-main-banner-small"
+                  alt="page-main-banner"
+                />
+              </div>
+              <div>
+                <h1 className="playfair-heading-sm">
+                  The Multipolar World Order
+                </h1>
+                <p className="main-article-body">
+                  The oppressors will always be on the wrong side of history and
+                  the oppressed will triumph over the oppressors eventually
+                </p>
+                <span className="author-and-time-card-sm">
+                  BY EXPOSING DAJJAL | AUG 30, 2022
+                </span>
+                </div>
+            
+            </div>
           </Box>
           </a>
           </div>

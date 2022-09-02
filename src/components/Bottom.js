@@ -70,8 +70,8 @@ class Bottom extends Component {
            marginTop:"5vh",
            paddingTop:"1vh"
           }}>
-            <span className="bottom-links">About</span>
-            <span className="bottom-links sign-up-button" onClick={this.handleOpen} >Sign up</span>
+            <a href="/about" style={{textDecoration:"none"}}><span className="bottom-links">About</span></a>
+            <span className="bottom-links sign-up-button" onClick={this.handleOpen} style={{paddingLeft:"2vw"}} >Sign up</span>
           </Container>
           <p className="author-and-time" id="bottom-copyright">Exposing Dajjal © 2022. </p>
         </Box>

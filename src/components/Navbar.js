@@ -60,7 +60,7 @@ class Navbar extends Component {
           <span id="navbar2-text">
             Eschatology, Research, Knowledge and Reminders.
           </span>
-          <div id="navbar-logo" align="center">
+          <div style={{display:"inline-block"}} align="center">
            <a href="/"><img src={"logo.jpg"} id="logo" alt="logo" /></a> 
           </div>
           <button id="navbar-subscribe-button" onClick={this.handleOpen}>Subscribe</button>
