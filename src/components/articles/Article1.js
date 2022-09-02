@@ -246,7 +246,7 @@ class Article1 extends Component {
             <p>
               Share it With Your Friends And Family
               <br />
-              <br/>
+              <br />
               <a
                 className="black-color-a"
                 href="whatsapp://send?text= https://www.exposingdajjal.com/article1"
@@ -272,7 +272,6 @@ class Article1 extends Component {
               >
                 <Twitter />
               </a>
-     
             </p>
           </div>
         </Container>

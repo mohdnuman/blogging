@@ -9,14 +9,14 @@ class MenuItem extends Component {
   render() {
     return (
         <Box display="inline-block">
-        <Card sx={{ display: "flex", boxShadow:"none",marginRight:"3vw",marginBottom:"5vh"}} className="card">
+        <Card sx={{ display: "flex", boxShadow:"none",marginRight:"3vw",marginBottom:"5vh",width:"23vw"}} className="card">
         <CardMedia
             component="img"
-            sx={{ width: 180 }}
+            sx={{ width: 150 }}
             image={this.props.image}
-            alt="Live from space album cover"
+            alt={this.props.title}
           />
-          <Box sx={{ display: "flex", flexDirection: "column" }}>
+          <Box sx={{ display: "flex", flexDirection: "column", textAlign:"left" }}>
             <CardContent sx={{ flex: "1 0 auto" }}>
               <Typography component="div" variant="h6">
                 <span className="item-title">{this.props.title}</span>

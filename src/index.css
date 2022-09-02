@@ -207,7 +207,7 @@ code {
 
 .item-title {
   font-family: "Playfair Display", serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 0.8vh;
 }
 
@@ -225,7 +225,7 @@ code {
 }
 
 .poems-menu {
-  /* border-top: 1px solid #e0e0e0; */
+  border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
   padding-top: 4vh;
 }
@@ -412,4 +412,41 @@ code {
   border-radius: 10px;
   color: black;
   margin-left: 5vw;
+}
+
+#article2-eighth{
+  width: 27vw;
+  height: auto;
+  display: inline-block;
+}
+
+#article2-ninth{
+  width: 27vw;
+  height: auto;
+  display: inline-block;
+}
+
+#article2-tenth{
+  width: 50vw;
+  height: auto;
+}
+
+#article2-eleventh{
+  width: 27vw;
+  height: auto;
+}
+
+#article2-twelth{
+  width: 27vw;
+  height: auto;
+}
+
+#article2-thirteenth{
+  width: 50vw;
+  height: auto;
+}
+
+#article2-fourteenth{
+  width: 50vw;
+  height: auto;
 }

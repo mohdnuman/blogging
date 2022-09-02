@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
 import Container from "@mui/material/Container";
-import MenuItem from "./MenuItem";
+import MenuItemTemplate from "./MenuItemTemplate";
 
 class ArticlesPage extends Component {
   render() {
@@ -84,7 +84,7 @@ class ArticlesPage extends Component {
           </a>
           </div>
           <div align="center" className="page-bottom-menu">
-            {/* <MenuItem /> */}
+            <a href="/article2"><MenuItemTemplate image="./article2.jpg" title="The Syria Deception" date="BY EXPOSING DAJJAL | SEP 02, 2022"/></a>
           </div>
         </Container>
         
