@@ -101,14 +101,18 @@ code {
   #navbar2-text {
     font-size: 0.55rem;
     font-weight: 800;
+    position: absolute;
+    top: 7vh;
   }
 
   #logo {
     position: absolute;
     top: 0vh;
+    right: 0vw;
     /* left: 180%; */
-    height: auto;
-    width: 27vw;
+    height: 30vw;
+    width: auto;
+    float: right;
   }
 
   .sign-up-button{
@@ -118,6 +122,8 @@ code {
   .big-screen-main-article{
     display: none;
   }
+
+  
   
  
   
@@ -397,6 +403,7 @@ code {
   border:0;
   border-bottom: 2px solid white;
   background-color: black;
+  color: white;
 }
 
 .small-screen-subscribe{
