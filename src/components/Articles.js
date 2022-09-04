@@ -90,6 +90,7 @@ class Articles extends Component {
         </a>
         <div className="poems-menu">
         <a href="/article2"><MenuItemTemplate image="./article2.jpg" title="The Syria Deception" date="BY EXPOSING DAJJAL | SEP 02, 2022"/></a>
+        <a href="/article3"><MenuItemTemplate image="./article3.jpg" title="The Western Sunrise" date="BY EXPOSING DAJJAL | SEP 05, 2022"/></a>
         
         </div>
         <p align="right" className="showmore">
