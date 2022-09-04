@@ -100,7 +100,7 @@ code {
     display: none;
   }
   #navbar2-text {
-    font-size: 0.55rem;
+    font-size: 0.54rem;
     font-weight: 800;
     position: absolute;
     top: 7vh;
@@ -124,6 +124,13 @@ code {
     display: none;
   }
 
+  .page-banner {
+    width: auto;
+    height: auto;
+    max-width: 100vw;   
+    max-height: 50vh;
+    object-fit: cover;
+  }
   
   
  
