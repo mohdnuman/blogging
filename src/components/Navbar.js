@@ -7,6 +7,8 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Modal from "@mui/material/Modal";
+import firebase from "../firebase";
+
 
 const style = {
   position: "absolute",
@@ -27,7 +29,16 @@ class Navbar extends Component {
     super(props);
     this.state = {
       open: false,
+      email:""
     };
+  }
+  componentDidMount() {
+    this.db = firebase.firestore().collection("users");
+  }
+  handleEmailChange=(e)=>{
+    this.setState({
+      email:e.target.value
+    })
   }
   handleOpen = () => {
     this.setState({
@@ -40,6 +51,24 @@ class Navbar extends Component {
       open: false,
     });
   };
+
+  handleSubscribe=()=>{
+    this.db
+        .add({
+            email:this.state.email
+        })
+        .then((docRef)=>{
+            // console.log(docRef);
+            this.setState({
+              subscribed:true
+            })
+            this.handleClose();
+        })
+        .catch((error)=>{
+            console.log("error occured in adding the user to the firebase db",error);
+        });
+   
+  }
   render() {
     return (
       <div>
@@ -138,9 +167,9 @@ class Navbar extends Component {
         >
           <Box sx={style}>
             <h1 className="subscribe-modal-heading">Subscribe to Exposing Dajjal</h1>
-            <span>
-              <input placeholder="Email" className="subscribe-input"/>
-              <button className="subscribe-button-modal" onClick={this.handleClose}>Subscribe</button>
+            <span> 
+              <input placeholder="Email" className="subscribe-input" onChange={this.handleEmailChange}/>
+              <button className="subscribe-button-modal" onClick={this.handleSubscribe}>Subscribe</button>
             </span>
           </Box>
         </Modal>

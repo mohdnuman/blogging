@@ -26,28 +26,28 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      blogs: [],
+      users: [],
       loading: true,
     };
-    this.db = firebase.firestore().collection("blogs");
+    this.db = firebase.firestore().collection("users");
   }
 
   componentDidMount() {
     this.db.onSnapshot((snapshot) => {
-      const blogs = [];
+      const users = [];
       snapshot.forEach((doc) => {
-        blogs.push(doc.data());
+        users.push(doc.data());
       });
 
       this.setState({
-        blogs: blogs,
+        users: users,
         loading: false,
       });
     });
   }
 
   render() {
-    console.log(this.state.blogs);
+    // console.log(this.state.users);
     return (
       <Router>
         <div>

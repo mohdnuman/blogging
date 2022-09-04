@@ -6,6 +6,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box } from "@mui/system";
 import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
+import firebase from "../firebase";
 
 const style = {
   position: "absolute",
@@ -26,8 +27,17 @@ class Bottom extends Component {
     super(props);
     this.state = {
       open: false,
-      subscribed:false
+      subscribed:false,
+      email:""
     };
+  }
+  componentDidMount() {
+    this.db = firebase.firestore().collection("users");
+  }
+  handleEmailChange=(e)=>{
+    this.setState({
+      email:e.target.value
+    })
   }
   handleOpen = () => {
     this.setState({
@@ -42,9 +52,21 @@ class Bottom extends Component {
   };
 
   handleSubscribe=()=>{
-    this.setState({
-      subscribed:true
-    })
+    this.db
+        .add({
+            email:this.state.email
+        })
+        .then((docRef)=>{
+            // console.log(docRef);
+            this.setState({
+              subscribed:true
+            })
+            this.handleClose();
+        })
+        .catch((error)=>{
+            console.log("error occured in adding the user to the firebase db",error);
+        });
+   
   }
   render() {
     return (
@@ -76,7 +98,7 @@ class Bottom extends Component {
           </button>
 
           <div className="small-screen-main-article">
-          <input placeholder="Email" className="small-screen-email-input" />
+          <input placeholder="Email" className="small-screen-email-input" onChange={this.handleEmailChange}/>
           {!this.state.subscribed&&<button className="small-screen-subscribe" onClick={this.handleSubscribe}>
             Subscribe
           </button>}
@@ -131,10 +153,10 @@ class Bottom extends Component {
               Subscribe to Exposing Dajjal
             </h1>
             <span>
-              <input placeholder="Email" className="subscribe-input" />
+              <input placeholder="Email" className="subscribe-input" onChange={this.handleEmailChange}/>
               <button
                 className="subscribe-button-modal"
-                onClick={this.handleClose}
+                onClick={this.handleSubscribe}
               >
                 Subscribe
               </button>
