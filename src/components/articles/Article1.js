@@ -10,7 +10,7 @@ class Article1 extends Component {
       <div >
         <Container
           maxWidth="xs"
-          sx={{ display: "inline-block", float: "top" }}
+          sx={{ display: "inline-block"}}
         ></Container>
         <Container
           maxWidth="md"
