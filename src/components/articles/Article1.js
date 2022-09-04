@@ -7,7 +7,7 @@ import { Telegram, Twitter } from "@mui/icons-material";
 class Article1 extends Component {
   render() {
     return (
-      <div>
+      <div >
         <Container
           maxWidth="xs"
           sx={{ display: "inline-block", float: "top" }}

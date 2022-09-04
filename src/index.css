@@ -24,6 +24,8 @@ code {
   font-size: 0.8rem;
   float: left;
   padding-left: 8vw;
+  position: absolute;
+  top: 6vh;
 }
 
 
@@ -32,11 +34,12 @@ code {
   width: 9%;
   display: inline-block;
   position: relative;
-  top: -9vh;
+  top: -6vh;
 }
 
 #navbar-subscribe-button {
   position: absolute;
+  top: 6vh;
   right: 10vw;
   background-color: lightgreen;
   border-radius: 20px;
@@ -81,8 +84,6 @@ code {
   .small-screen-main-article{
     display: none;
   }
-
-  
 }
 
 @media only screen and (max-width: 600px) {
@@ -450,3 +451,4 @@ code {
   width: 50vw;
   height: auto;
 }
+
