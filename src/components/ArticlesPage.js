@@ -86,6 +86,7 @@ class ArticlesPage extends Component {
           <div align="center" className="page-bottom-menu">
             <a href="/article2"><MenuItemTemplate image="./article2.jpg" title="The Syria Deception" date="BY EXPOSING DAJJAL | SEP 02, 2022"/></a>
             <a href="/article3"><MenuItemTemplate image="./article3.jpg" title="The Western Sunrise" date="BY EXPOSING DAJJAL | SEP 05, 2022"/></a>
+            <a href="/article4"><MenuItemTemplate image="./article4.jpg" title="Aurangzeb and the colonial era-scholorship" date="BY EXPOSING DAJJAL | SEP 12, 2022"/></a>
             
           </div>
         </Container>
