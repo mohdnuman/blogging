@@ -84,6 +84,11 @@ code {
   .small-screen-main-article{
     display: none;
   }
+ 
+
+  .small-screen{
+    display: none;
+  }
 }
 
 .page-banner {
@@ -97,6 +102,10 @@ code {
 
 @media only screen and (max-width: 600px) {
 
+
+  .big-screen{
+    display: none;
+  }
   .page-banner {
     width: auto;
     height: auto;
@@ -142,6 +151,8 @@ code {
   .big-screen-main-article{
     display: none;
   }
+
+  
 
 
   

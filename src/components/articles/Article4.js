@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import WhatsappIcon from "@mui/icons-material/WhatsApp";
 import { Telegram, Twitter } from "@mui/icons-material";
 
-class Article3 extends Component {
+class Article4 extends Component {
   render() {
     return (
       <div>
@@ -230,4 +230,4 @@ class Article3 extends Component {
   }
 }
 
-export default Article3;
+export default Article4;
