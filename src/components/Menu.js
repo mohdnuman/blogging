@@ -18,7 +18,7 @@ class Menu extends Component {
             <a href="/poem1"><MenuItemTemplate title="A Couplet On Muhammad ﷺ" image="poem1.jpg" date="BY EXPOSING DAJJAL | SEP 01, 2022"/></a>
             <a href="/article5"><MenuItemTemplate image="./article5.jpg" title="Israel’s attack on Iran – A Catalyst towards the Great War" date="BY EXPOSING DAJJAL | SEP 14, 2022"/></a>
             <a href="/article6"><MenuItemTemplate image="./article6.jpg" title="Have Gog and Magog been released?" date="BY EXPOSING DAJJAL | SEP 14, 2022"/></a>
-            <a href="/article4"><MenuItemTemplate image="./article4.jpg" title="Aurangzeb and the colonial era-scholorship" date="BY EXPOSING DAJJAL | SEP 12, 2022"/></a>
+            <a href="/article7"><MenuItemTemplate image="./article7.png" title="SURAH AL-KAHF: THE SURAH TO UNDERSTAND THE MODERN AGE" date="BY EXPOSING DAJJAL | SEP 18, 2022"/></a>
 
 
           </Container>

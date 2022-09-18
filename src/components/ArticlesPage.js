@@ -120,6 +120,13 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | SEP 14, 2022"
                 />
               </a>
+              <a href="/article7">
+                <MenuItemTemplate
+                  image="./article7.png"
+                  title="SURAH AL-KAHF: THE SURAH TO UNDERSTAND THE MODERN AGE"
+                  date="BY EXPOSING DAJJAL | SEP 17, 2022"
+                />
+              </a>
             </Container>
           </div>
         </Container>

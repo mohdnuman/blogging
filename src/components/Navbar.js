@@ -9,7 +9,6 @@ import Select from "@mui/material/Select";
 import Modal from "@mui/material/Modal";
 import firebase from "../firebase";
 
-
 const style = {
   position: "absolute",
   top: "40%",
@@ -19,7 +18,7 @@ const style = {
   height: "40vh",
   bgcolor: "white",
   border: "1px solid grey",
-  borderRadius:"10px",
+  borderRadius: "10px",
   boxShadow: 24,
   p: 4,
 };
@@ -29,17 +28,17 @@ class Navbar extends Component {
     super(props);
     this.state = {
       open: false,
-      email:""
+      email: "",
     };
   }
   componentDidMount() {
     this.db = firebase.firestore().collection("users");
   }
-  handleEmailChange=(e)=>{
+  handleEmailChange = (e) => {
     this.setState({
-      email:e.target.value
-    })
-  }
+      email: e.target.value,
+    });
+  };
   handleOpen = () => {
     this.setState({
       open: true,
@@ -52,23 +51,25 @@ class Navbar extends Component {
     });
   };
 
-  handleSubscribe=()=>{
+  handleSubscribe = () => {
     this.db
-        .add({
-            email:this.state.email
-        })
-        .then((docRef)=>{
-            // console.log(docRef);
-            this.setState({
-              subscribed:true
-            })
-            this.handleClose();
-        })
-        .catch((error)=>{
-            console.log("error occured in adding the user to the firebase db",error);
+      .add({
+        email: this.state.email,
+      })
+      .then((docRef) => {
+        // console.log(docRef);
+        this.setState({
+          subscribed: true,
         });
-   
-  }
+        this.handleClose();
+      })
+      .catch((error) => {
+        console.log(
+          "error occured in adding the user to the firebase db",
+          error
+        );
+      });
+  };
   render() {
     return (
       <div>
@@ -89,10 +90,14 @@ class Navbar extends Component {
           <span id="navbar2-text">
             Eschatology, Research, Knowledge and Reminders.
           </span>
-          <div style={{display:"inline-block"}} align="center">
-           <a href="/"><img src={"logo.jpg"} id="logo" alt="logo" /></a> 
+          <div style={{ display: "inline-block" }} align="center">
+            <a href="/">
+              <img src={"logo.jpg"} id="logo" alt="logo" />
+            </a>
           </div>
-          <button id="navbar-subscribe-button" onClick={this.handleOpen}>Subscribe</button>
+          <button id="navbar-subscribe-button" onClick={this.handleOpen}>
+            Subscribe
+          </button>
         </Container>
         <CssBaseline />
         <Container
@@ -110,52 +115,42 @@ class Navbar extends Component {
             <a href="/poems">
               <span>Poems</span>
             </a>
-            <a href="/booknotes">
-              <span>Book Notes</span>
+            <a href="/gallery">
+              <span>Gallery</span>
             </a>
-            <a href="/photos">
-              <span>Photos</span>
-            </a>
-            <a href="/videos">
-              <span>Videos</span>
-            </a>
+          
             <a href="/contact">
               <span>Contact</span>
             </a>
           </span>
 
-<div className="short-screen-nav">
-          <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Home</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              // value={age}
-              label="Page"
-            >
-              <a href="/" className="black-color-a">
-                <MenuItem>Home</MenuItem>
-              </a>
-              <a href="/articles" className="black-color-a">
-                <MenuItem>Articles</MenuItem>
-              </a>
-              <a href="/poems" className="black-color-a">
-                <MenuItem>Poems</MenuItem>
-              </a>
-              <a href="/booknotes" className="black-color-a">
-                <MenuItem>Book Notes</MenuItem>
-              </a>
-              <a href="/photos" className="black-color-a">
-                <MenuItem>Photos</MenuItem>
-              </a>
-              <a href="/videos" className="black-color-a">
-                <MenuItem>Videos</MenuItem>
-              </a>
-              <a href="/contact" className="black-color-a">
-                <MenuItem>Contact</MenuItem>
-              </a>
-            </Select>
-          </FormControl>
+          <div className="short-screen-nav">
+            <FormControl fullWidth>
+              <InputLabel id="demo-simple-select-label">Home</InputLabel>
+              <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                // value={age}
+                label="Page"
+              >
+                <a href="/" className="black-color-a">
+                  <MenuItem>Home</MenuItem>
+                </a>
+                <a href="/articles" className="black-color-a">
+                  <MenuItem>Articles</MenuItem>
+                </a>
+                <a href="/poems" className="black-color-a">
+                  <MenuItem>Poems</MenuItem>
+                </a>
+                <a href="/gallery" className="black-color-a">
+                  <MenuItem>Gallery</MenuItem>
+                </a>
+
+                <a href="/contact" className="black-color-a">
+                  <MenuItem>Contact</MenuItem>
+                </a>
+              </Select>
+            </FormControl>
           </div>
         </Container>
 
@@ -166,10 +161,21 @@ class Navbar extends Component {
           aria-describedby="modal-modal-description"
         >
           <Box sx={style}>
-            <h1 className="subscribe-modal-heading">Subscribe to Exposing Dajjal</h1>
-            <span> 
-              <input placeholder="Email" className="subscribe-input" onChange={this.handleEmailChange}/>
-              <button className="subscribe-button-modal" onClick={this.handleSubscribe}>Subscribe</button>
+            <h1 className="subscribe-modal-heading">
+              Subscribe to Exposing Dajjal
+            </h1>
+            <span>
+              <input
+                placeholder="Email"
+                className="subscribe-input"
+                onChange={this.handleEmailChange}
+              />
+              <button
+                className="subscribe-button-modal"
+                onClick={this.handleSubscribe}
+              >
+                Subscribe
+              </button>
             </span>
           </Box>
         </Modal>

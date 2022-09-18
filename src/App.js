@@ -12,15 +12,16 @@ import {
 } from "react-router-dom";
 import ArticlesPage from "./components/ArticlesPage";
 import PoemsPage from "./components/PoemsPage";
-import BooksPage from "./components/BooksPage";
-import PhotosPage from "./components/PhotosPage";
-import VideosPage from "./components/VideosPage";
+import GalleryPage from "./components/GalleryPage";
+
 import Article1 from "./components/articles/Article1";
 import Article2 from "./components/articles/Article2";
 import Article3 from "./components/articles/Article3";
 import Article4 from "./components/articles/Article4";
 import Article5 from "./components/articles/Article5";
 import Article6 from "./components/articles/Article6";
+import Article7 from "./components/articles/Article7";
+
 
 
 
@@ -70,6 +71,8 @@ class App extends Component {
           <Route exact path="/article4" component={withRouter(Article4)} />
           <Route exact path="/article5" component={withRouter(Article5)} />
           <Route exact path="/article6" component={withRouter(Article6)} />
+          <Route exact path="/article7" component={withRouter(Article7)} />
+
 
 
 
@@ -79,9 +82,7 @@ class App extends Component {
           <Route exact path="/poems" component={withRouter(PoemsPage)} />
           <Route exact path="/poem1" component={withRouter(Poem1)} />
 
-          <Route exact path="/booknotes" component={withRouter(BooksPage)} />
-          <Route exact path="/photos" component={withRouter(PhotosPage)} />
-          <Route exact path="/videos" component={withRouter(VideosPage)} />
+          <Route exact path="/gallery" component={withRouter(GalleryPage)} />
           <Route exact path="/about" component={withRouter(About)} />
 
 
