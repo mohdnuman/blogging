@@ -7,7 +7,7 @@ class Article6 extends Component {
   render() {
     return (
       <div align="center">
-        {/* <Container sx={{ display: "inline-block",maxWidth:"10vw" }}></Container> */}
+       
         <Container
           maxWidth="md"
           sx={{ display: "inline-block", padding: "4vh", fontSize: "1.3rem" }}
