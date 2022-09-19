@@ -106,8 +106,8 @@ class Article6 extends Component {
               derived externally by research and observation on physical things,
               hence the Modern Age comes to a conclusion that material world is
               the only world and that knowledge gained by experimentations is
-              the only source of knowledge. • Dajjal only sees with his right
-              eye and is blind in his left eye indicating that Dajjal is
+              the only source of knowledge. • Dajjal only sees with his left
+              eye and is blind in his right eye indicating that Dajjal is
               internally blind and those who follow Dajjal are a people who are
               internally blind. Such a people will not recognize appearance and
               reality as opposite in the end times and will be led to believe
