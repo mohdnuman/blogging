@@ -122,9 +122,23 @@ class ArticlesPage extends Component {
               </a>
               <a href="/article7">
                 <MenuItemTemplate
-                  image="./article7.png"
+                  image="./article7.jpg"
                   title="SURAH AL-KAHF: THE SURAH TO UNDERSTAND THE MODERN AGE"
                   date="BY EXPOSING DAJJAL | SEP 17, 2022"
+                />
+              </a>
+              <a href="/article8">
+                <MenuItemTemplate
+                  image="./article8.jpeg"
+                  title="DE-DOLLARIZATION"
+                  date="BY EXPOSING DAJJAL | OCT 02, 2022"
+                />
+              </a>
+              <a href="/article9">
+                <MenuItemTemplate
+                  image="./article9.jpg"
+                  title="Riba and the Modern Western civilization"
+                  date="BY EXPOSING DAJJAL | OCT 02, 2022"
                 />
               </a>
             </Container>

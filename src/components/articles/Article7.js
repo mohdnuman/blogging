@@ -17,7 +17,7 @@ class Article6 extends Component {
             SURAH AL-KAHF: THE SURAH TO UNDERSTAND THE MODERN AGE
           </h1>
           <img
-            src={"./article7.png"}
+            src={"./article7.jpg"}
             alt="article7"
             className="image-main-page-article-4"
             sx={{ height: 10 }}

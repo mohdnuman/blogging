@@ -23,7 +23,7 @@ class Article2 extends Component {
           <img
             src={"./article2.jpg"}
             alt="article1"
-            className="image-main-page"
+            className="image-main-page-article-4"
           />
           <div className="body-text">
             <p>
