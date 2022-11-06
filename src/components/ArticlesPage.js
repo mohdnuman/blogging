@@ -169,6 +169,14 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | OCT 11, 2022"
                 />
               </a>
+              <a href="/article14">
+                <MenuItemTemplate
+                  image="./article15.jpg"
+                  title=" Was Aisha رضي الله عنها really '6 years old' when she got married to
+                  Prophet Muhammad (ﷺ)?"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
             </Container>
           </div>
         </Container>
