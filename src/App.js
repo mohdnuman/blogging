@@ -28,6 +28,15 @@ import Article12 from "./components/articles/Article12";
 import Article13 from "./components/articles/Article13";
 import Article14 from "./components/articles/Article14";
 import Article15 from "./components/articles/Article15";
+import Article16 from "./components/articles/Article16";
+import Article17 from "./components/articles/Article17";
+import Article18 from "./components/articles/Article18";
+import Article19 from "./components/articles/Article19";
+import Article20 from "./components/articles/Article20";
+import Article21 from "./components/articles/Article21";
+import Article22 from "./components/articles/Article22";
+import Article23 from "./components/articles/Article23";
+import Article24 from "./components/articles/Article24";
 
 
 
@@ -92,6 +101,16 @@ class App extends Component {
           <Route exact path="/article13" component={withRouter(Article13)} />
           <Route exact path="/article14" component={withRouter(Article14)} />
           <Route exact path="/article15" component={withRouter(Article15)} />
+          <Route exact path="/article16" component={withRouter(Article16)} />
+          <Route exact path="/article17" component={withRouter(Article17)} />
+          <Route exact path="/article18" component={withRouter(Article18)} />
+          <Route exact path="/article19" component={withRouter(Article19)} />
+          <Route exact path="/article20" component={withRouter(Article20)} />
+          <Route exact path="/article21" component={withRouter(Article21)} />
+          <Route exact path="/article22" component={withRouter(Article22)} />
+          <Route exact path="/article23" component={withRouter(Article23)} />
+          <Route exact path="/article24" component={withRouter(Article24)} />
+
 
 
 

@@ -169,11 +169,74 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | OCT 11, 2022"
                 />
               </a>
-              <a href="/article14">
+              <a href="/article15">
                 <MenuItemTemplate
                   image="./article15.jpg"
                   title=" Was Aisha رضي الله عنها really '6 years old' when she got married to
                   Prophet Muhammad (ﷺ)?"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article16">
+                <MenuItemTemplate
+                  image="./article16.jpg"
+                  title="Prophet Muhammad's ﷺ promise to the Christians"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article17">
+                <MenuItemTemplate
+                  image="./article17.jpg"
+                  title="Iqbal, Qur'an and The True Doctrine Of Islam"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article18">
+                <MenuItemTemplate
+                  image="./article18.jpg"
+                  title="Qur'ān The Absolute Truth"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article19">
+                <MenuItemTemplate
+                  image="./article19.jpg"
+                  title="Iqbal and Intellectual Bankruptcy of the Muslims"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article20">
+                <MenuItemTemplate
+                  image="./article20.jpg"
+                  title="Qur'ān & The Orthodox Christianity"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article21">
+                <MenuItemTemplate
+                  image="./article21.jpg"
+                  title="Nūr/Light"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article22">
+                <MenuItemTemplate
+                  image="./article22.jpg"
+                  title="The Crusades"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article23">
+                <MenuItemTemplate
+                  image="./article23.jpg"
+                  title="RSS (Rashtriya Swayamsevak Sangh) & BJP (Bhartiya Janata Party)"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article24">
+                <MenuItemTemplate
+                  image="./article24.jpg"
+                  title="The bogus fatwa on social distancing while offering Salāh."
                   date="BY EXPOSING DAJJAL | NOV 06, 2022"
                 />
               </a>
