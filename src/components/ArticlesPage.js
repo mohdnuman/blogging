@@ -240,6 +240,20 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | NOV 06, 2022"
                 />
               </a>
+              <a href="/article25">
+                <MenuItemTemplate
+                  image="./article25.jpg"
+                  title="THE GREAT WAR"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
+              <a href="/article26">
+                <MenuItemTemplate
+                  image="./article26.jpg"
+                  title="Tipu Sultan- A man most feared by the British"
+                  date="BY EXPOSING DAJJAL | NOV 06, 2022"
+                />
+              </a>
             </Container>
           </div>
         </Container>
