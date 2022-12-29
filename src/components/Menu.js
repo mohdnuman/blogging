@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Container from "@mui/material/Container";
-import MenuItem from './MenuItem';
 import MenuItemTemplate from "./MenuItemTemplate";
 
 
@@ -15,7 +14,7 @@ class Menu extends Component {
               ,borderBottom:"1px solid #e0e0e0"
             }}
           >
-            <a href="/article17"><MenuItemTemplate image="./article17.jpg" title="Iqbal, Qur'an and The True Doctrine Of Islam" date="BY EXPOSING DAJJAL | NOV 07, 2022"/></a>
+            <a href="/article27"><MenuItemTemplate image="./article27.jpg" title="The Battle ground" date="BY EXPOSING DAJJAL | DEC 29, 2022"/></a>
             <a href="/article18"><MenuItemTemplate image="./article18.jpg" title="Qur'ān The Absolute Truth" date="BY EXPOSING DAJJAL | NOV 07, 2022"/></a>
             <a href="/article19"><MenuItemTemplate image="./article19.jpg" title="Iqbal and Intellectual Bankruptcy of the Muslims" date="BY EXPOSING DAJJAL | NOV 07, 2022"/></a>
             <a href="/article21"><MenuItemTemplate image="./article21.jpg" title="Nūr/Light" date="BY EXPOSING DAJJAL | NOV 07, 2022"/></a>

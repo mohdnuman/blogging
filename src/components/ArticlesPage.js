@@ -254,6 +254,13 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | NOV 06, 2022"
                 />
               </a>
+              <a href="/article27">
+                <MenuItemTemplate
+                  image="./article27.jpg"
+                  title="The Battle ground"
+                  date="BY EXPOSING DAJJAL | DEC 29, 2022"
+                />
+              </a>
             </Container>
           </div>
         </Container>

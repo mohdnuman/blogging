@@ -18,7 +18,7 @@ class MenuItem extends Component {
                 boxShadow: "none",
                 marginRight: "3vw",
                 marginBottom: "5vh",
-                width: "25vw",
+                width: "23vw",
               }}
               className="card"
             >
