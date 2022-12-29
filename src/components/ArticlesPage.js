@@ -257,7 +257,7 @@ class ArticlesPage extends Component {
               <a href="/article27">
                 <MenuItemTemplate
                   image="./article27.jpg"
-                  title="The Battle ground"
+                  title="Ukraine, Russia and Pax Americana - The Battle Ground"
                   date="BY EXPOSING DAJJAL | DEC 29, 2022"
                 />
               </a>

@@ -12,7 +12,9 @@ class Article27 extends Component {
           sx={{ display: "inline-block", padding: "4vh", fontSize: "1.3rem" }}
         >
           <span className="articles-section-heading">ARTICLES</span>
-          <h1 className="playfair-heading-lg">The Battle ground</h1>
+          <h1 className="playfair-heading-lg">
+            Ukraine, Russia and Pax Americana - The Battle Ground
+          </h1>
           <img
             src={"./article27.jpg"}
             alt="article27"
@@ -20,7 +22,6 @@ class Article27 extends Component {
             sx={{ height: 10 }}
           />
           <div className="body-text">
-            <p><b>Ukraine, Pax Americana and Russia</b></p>
             <p>
               <b>Introduction</b>
             </p>
@@ -126,8 +127,8 @@ class Article27 extends Component {
               Ukraine which will favor the movement of the Russian army.
             </p>
             <p>
-              Here is the video of Col. Douglas Macgregor who speaks
-              on this offensive that is coming,
+              Here is the video of Col. Douglas Macgregor who speaks on this
+              offensive that is coming,
             </p>
             <iframe
               width="560"
@@ -138,7 +139,9 @@ class Article27 extends Component {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <p><b>• Poland- The next Neocon False flag?</b></p>
+            <p>
+              <b>• Poland- The next Neocon False flag?</b>
+            </p>
             <p>
               If sources are to be believed there is a mobilization of troops in
               Poland, up to 2,00,000 troops are being prepared to enter Ukraine,
@@ -164,7 +167,7 @@ class Article27 extends Component {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            
+
             <p>
               <b>• Where are we heading towards?</b>
             </p>
@@ -176,11 +179,10 @@ class Article27 extends Component {
               destined to be victorious in this war.
             </p>
             <p>
-              UK’s MI-6 Richard Moore tweeted out this sparking gem “With the
-              tragedy and destruction unfolding in Ukraine, we should remember
-              the values and hard won freedoms that distinguish us from Putin,
-              none more than LGBT+ rights. So let’s resume our series of tweets
-              to mark #LGBTHM2022”.
+              UK’s MI-6 Richard Moore tweeted “With the tragedy and destruction
+              unfolding in Ukraine, we should remember the values and hard won
+              freedoms that distinguish us from Putin, none more than LGBT+
+              rights. So let’s resume our series of tweets to mark #LGBTHM2022”.
             </p>
             <p>
               We Know the fate that awaits those who promote homosexuality, a
