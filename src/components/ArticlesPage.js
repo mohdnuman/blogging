@@ -261,6 +261,21 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | DEC 29, 2022"
                 />
               </a>
+              <a href="/article28">
+                <MenuItemTemplate
+                  image="./article28.jpg"
+                  title="Al Qadr
+                  (Divine Decree, Predestination, Fate) "
+                  date="BY EXPOSING DAJJAL | JAN 17, 2023"
+                />
+              </a>
+              <a href="/article29">
+                <MenuItemTemplate
+                  image="./article29.jpg"
+                  title="Imām 'Alī (عليه السلام‎) said regarding the Qur'ān"
+                  date="BY EXPOSING DAJJAL | JAN 17, 2023"
+                />
+              </a>
             </Container>
           </div>
         </Container>
