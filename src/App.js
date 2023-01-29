@@ -42,6 +42,8 @@ import Article26 from "./components/articles/Article26";
 import Article27 from "./components/articles/Article27";
 import Article28 from "./components/articles/Article28";
 import Article29 from "./components/articles/Article29";
+import Article30 from "./components/articles/Article30";
+
 
 
 
@@ -122,6 +124,8 @@ class App extends Component {
           <Route exact path="/article27" component={withRouter(Article27)} />
           <Route exact path="/article28" component={withRouter(Article28)} />
           <Route exact path="/article29" component={withRouter(Article29)} />
+          <Route exact path="/article30" component={withRouter(Article30)} />
+
 
 
 

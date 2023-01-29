@@ -276,6 +276,13 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | JAN 17, 2023"
                 />
               </a>
+              <a href="/article30">
+                <MenuItemTemplate
+                  image="./article30.jpg"
+                  title="Marriage and The Modern World"
+                  date="BY EXPOSING DAJJAL | JAN 29, 2023"
+                />
+              </a>
             </Container>
           </div>
         </Container>

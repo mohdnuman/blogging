@@ -36,11 +36,11 @@ class Menu extends Component {
             date="BY EXPOSING DAJJAL | DEC 29, 2022"
           />
         </a>
-        <a href="/article21">
+        <a href="/article30">
           <MenuItemTemplate
-            image="./article21.jpg"
-            title="Nūr/Light"
-            date="BY EXPOSING DAJJAL | NOV 07, 2022"
+            image="./article30.jpg"
+            title="Marriage and The Modern World"
+            date="BY EXPOSING DAJJAL | JAN 29, 2022"
           />
         </a>
         <a href="/article24">
