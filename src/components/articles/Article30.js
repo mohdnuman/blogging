@@ -68,7 +68,7 @@ class Article30 extends Component {
               <b>But, What is the reason for this?</b>
             </p>
             <p>
-              It should not be hard to recognise that the reason behind this is
+              It should not be hard to recognise that the major reason behind this is
               <b> ‘The Feminist Revolution’ </b> which promises women of a new
               dawn, when in reality it promises them a cursed dusk!
             </p>
@@ -196,9 +196,9 @@ class Article30 extends Component {
             </p>
             <p>
               Hence a successful and harmonious male-female relationship
-              requires that the 'night' (i.e., male) must function as 'night'
+              requires that the 'night' (i.e., female) must function as 'night'
               and not try to become day and similarly the 'day' (i.e. the
-              female) must function as 'day' and not try to become 'night'.
+              male) must function as 'day' and not try to become 'night'.
             </p>
             <p>
               Men are not superior to women nor women are superior to men in the
