@@ -19,6 +19,26 @@ class Home extends Component {
           <Menu />
           <Poems/>
           <Articles/>
+          <Container
+          maxWidth="md"
+          >
+              <script
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6322135215730772"
+                  crossOrigin="anonymous"
+                ></script>
+                <ins
+                  className="adsbygoogle"
+                  style={{"display":"block"}}
+                  data-ad-client="ca-pub-6322135215730772"
+                  data-ad-slot="5435972548"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                ></ins>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+          </Container>
           {/* <BookNotes/> */}
         </Container>
     );
