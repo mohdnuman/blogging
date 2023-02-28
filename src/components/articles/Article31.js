@@ -61,14 +61,18 @@ class Article31 extends Component {
               and will go to Jannah is an arrogance that could be crushed by
               just this one āyah of the Qur'ān.
             </p>
-            <p>The very first evidence of the abandonment of the Qur'ān</p>
-            <p>“The word Qur'ān means a ‘recitation’”</p>
+            <p>
+              <b>The very first evidence of the abandonment of the Qur'ān</b>
+            </p>
+            <p>
+              <b>“The word Qur'ān means a ‘recitation’”</b>
+            </p>
             <p>
               All the revealed scriptures have ‘names’, but the very last
               revealed scripture which was sent down to Nabī Muhammad (ﷺ) was
               simply named as Qur'ān— which means a ‘recitation’. In addition,
               the first word to be revealed in the Qur'ān was the Divine
-              command: “اقرا/Recite”.
+              command:<b>“اقرا/Recite”</b>.
             </p>
             <p>
               Since the Qur’ān was sent to people who ‘think’, all of mankind
@@ -80,12 +84,17 @@ class Article31 extends Component {
               Our answer to the above question is that there is a Divine wisdom
               at work in the choice of the name which establishes an imperative
               that this unique last Divine scripture to mankind is meant, first
-              of all, to be ‘recited’. The very first duty of every Muslim
-              towards the Qur'ān is to recite it.
+              of all, to be ‘recited’.{" "}
+              <b>
+                The very first duty of every Muslim towards the Qur'ān is to
+                recite it.
+              </b>
             </p>
             <p>
-              But, How many of us recite the Qur'ān everyday? How many of us
-              complete the recitation of the Qur'ān every lunar month?
+              <b>
+                But, How many of us recite the Qur'ān everyday? How many of us
+                complete the recitation of the Qur'ān every lunar month?
+              </b>
             </p>
             <p>
               The first evidence of the abandonment of the Qur'ān is when
@@ -95,18 +104,22 @@ class Article31 extends Component {
               correct methodology of reciting the Qur'ān)
             </p>
             <p>
-              As the blessed month of Ramadān is approaching, the main objective
-              of this post is to direct the attention of our readers to the role
-              of the continuous recitation of the Qur'ān, cover-to-cover every
-              lunar month and especially in the month of Ramadān because the
-              month of Ramadān is directly connected to the Qur'ān for it is the
-              month in which it was revealed.
+              <b>
+                As the blessed month of Ramadān is approaching, the main
+                objective of this post is to direct the attention of our readers
+                to the role of the continuous recitation of the Qur'ān,
+                cover-to-cover every lunar month and especially in the month of
+                Ramadān because the month of Ramadān is directly connected to
+                the Qur'ān for it is the month in which it was revealed.
+              </b>
             </p>
             <p>
-              We strongly advice our readers who have not yet developed the
-              habit of completing the recitation of the Qur'ān every lunar month
-              to start doing so with this Ramadān, Indeed it shall be of a great
-              benifit, In Shā Allāh.
+              <b>
+                We strongly advice our readers who have not yet developed the
+                habit of completing the recitation of the Qur'ān every lunar
+                month to start doing so with this Ramadān, Indeed it shall be of
+                a great benifit, In Shā Allāh.
+              </b>
             </p>
             <p>
               And ofcourse Muslims have abandoned and forsaken the Qur'ān in
