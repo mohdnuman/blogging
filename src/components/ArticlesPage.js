@@ -283,6 +283,13 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | JAN 29, 2023"
                 />
               </a>
+              <a href="/article31">
+                <MenuItemTemplate
+                  image="./article31.jpg"
+                  title="Muslims have abandoned the Qur'ān!"
+                  date="BY EXPOSING DAJJAL | FEB 29, 2023"
+                />
+              </a>
             </Container>
           </div>
         </Container>

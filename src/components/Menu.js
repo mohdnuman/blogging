@@ -13,7 +13,13 @@ class Menu extends Component {
           borderBottom: "1px solid #e0e0e0",
         }}
       >
-       
+        <a href="/article31">
+          <MenuItemTemplate
+            image="./article31.jpg"
+            title="Muslims have abandoned the Qur'ān!"
+            date="BY EXPOSING DAJJAL | FEB 29, 2023"
+          />
+        </a>
         <a href="/article28">
           <MenuItemTemplate
             image="./article28.jpg"
@@ -41,13 +47,6 @@ class Menu extends Component {
             image="./article30.jpg"
             title="Marriage and The Modern World"
             date="BY EXPOSING DAJJAL | JAN 29, 2022"
-          />
-        </a>
-        <a href="/article24">
-          <MenuItemTemplate
-            image="./article24.jpg"
-            title="The bogus fatwa on social distancing while offering Salāh."
-            date="BY EXPOSING DAJJAL | NOV 07, 2022"
           />
         </a>
 
