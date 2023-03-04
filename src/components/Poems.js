@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Container from "@mui/material/Container";
-import MenuItem from "./MenuItem";
+import MenuItemTemplate from "./MenuItemTemplate";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 class Poems extends Component {
@@ -25,15 +25,14 @@ class Poems extends Component {
         <p className="author-and-time">BY EXPOSING DAJJAL | SEP 01, 2022</p>
         </a>
         <div className="poems-menu">
-          {/* <MenuItem /> */}
-          {/* <MenuItem /> */}
+        <a href="/poem2"><MenuItemTemplate image="./poem2.jpg" title="Spouse in the Qur’ān" date="BY EXPOSING DAJJAL | MAR 4, 2023"/></a>
         </div>
-        {/* <p align="right" className="showmore">
+        <p align="right" className="showmore">
           <a className="black-color-a" href="/poems">
             <span className="showmore-text">Show more</span>
             <ArrowForwardIcon />
           </a>
-        </p> */}
+        </p>
       </Container>
     );
   }

@@ -61,6 +61,8 @@ import Article31 from "./components/articles/Article31";
 
 
 import Poem1 from "./components/poems/Poem1";
+import Poem2 from "./components/poems/Poem2";
+
 import About from "./components/About";
 
 
@@ -148,6 +150,8 @@ class App extends Component {
 
           <Route exact path="/poems" component={withRouter(PoemsPage)} />
           <Route exact path="/poem1" component={withRouter(Poem1)} />
+          <Route exact path="/poem2" component={withRouter(Poem2)} />
+
 
           <Route exact path="/gallery" component={withRouter(GalleryPage)} />
           <Route exact path="/about" component={withRouter(About)} />

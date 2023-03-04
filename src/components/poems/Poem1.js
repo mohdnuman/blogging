@@ -1,16 +1,11 @@
 import React, { Component } from "react";
 import Container from "@mui/material/Container";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsappIcon from "@mui/icons-material/WhatsApp";
 import { Telegram, Twitter } from "@mui/icons-material";
 class Poem1 extends Component {
   render() {
     return (
-      <div>
-        <Container
-          maxWidth="xs"
-          sx={{ display: "inline-block", float: "top" }}
-        ></Container>
+      <div align="center">
         <Container
           maxWidth="md"
           sx={{ display: "inline-block", padding: "4vh", fontSize: "1.3rem" }}
