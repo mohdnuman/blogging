@@ -24,8 +24,8 @@ class Poem2 extends Component {
             </p>
             <p>For He says</p>
             <p>
-              *وَلَا تَايْـَٔسُوْا مِنْ رَّوْحِ اللّٰهِ * And do not lose hope
-              in the mercy of Allāh.
+              وَلَا تَايْـَٔسُوْا مِنْ رَّوْحِ اللّٰهِ And do not lose hope in
+              the mercy of Allāh.
               <br /> Sūrah Yūsuf 12:87
             </p>
             <p>
@@ -43,7 +43,7 @@ class Poem2 extends Component {
             </p>
             <p>For He says</p>
             <p>
-              *وَخُلِقَ الْاِنْسَانُ ضَعِيْفًا * <br />
+              وَخُلِقَ الْاِنْسَانُ ضَعِيْفًا <br />
               and mankind was created weak.
               <br />
               Sūrah An-Nisa' 4:28
@@ -85,8 +85,8 @@ class Poem2 extends Component {
               and He placed between you affection and mercy. Sūrah Ar-Rūm 30:21
             </p>
             <p>
-              وَالطَّيِّبٰتُ لِلطَّيِّبِيْنَ And good women are for good men,
-              and good men are for good women.
+              وَالطَّيِّبٰتُ لِلطَّيِّبِيْنَ <br />
+              And good women are for good men, and good men are for good women.
               <br /> Sūrah An-Nūr 24:26
             </p>
             <p>
