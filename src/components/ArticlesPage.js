@@ -290,6 +290,20 @@ class ArticlesPage extends Component {
                   date="BY EXPOSING DAJJAL | FEB 29, 2023"
                 />
               </a>
+              <a href="/article32">
+                <MenuItemTemplate
+                    image="./article32.jpg"
+                    title="Why we add ‘عليه السلام’ after the names of Sayyada Fatimah, Imam Ali, Hasan and Husain?"
+                    date="BY EXPOSING DAJJAL | APR 19, 2023"
+                />
+              </a>
+              <a href="/article33">
+                <MenuItemTemplate
+                    image="./article33.jpg"
+                    title="When Imam Ali couldn't break a dry bread but managed to lift the door of Khaybar!"
+                    date="BY EXPOSING DAJJAL | APR 19, 2023"
+                />
+              </a>
             </Container>
           </div>
         </Container>
