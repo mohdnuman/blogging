@@ -304,6 +304,13 @@ class ArticlesPage extends Component {
                     date="BY EXPOSING DAJJAL | APR 19, 2023"
                 />
               </a>
+              <a href="/article34">
+                <MenuItemTemplate
+                    image="./article34.jpg"
+                    title="Islamic Eschatological analysis on the current geopolitical world order"
+                    date="BY EXPOSING DAJJAL | MAY 11, 2023"
+                />
+              </a>
             </Container>
           </div>
         </Container>

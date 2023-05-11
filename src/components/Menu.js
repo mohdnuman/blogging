@@ -13,11 +13,11 @@ class Menu extends Component {
           borderBottom: "1px solid #e0e0e0",
         }}
       >
-        <a href="/article31">
+        <a href="/article34">
           <MenuItemTemplate
-            image="./article31.jpg"
-            title="Muslims have abandoned the Qur'ān!"
-            date="BY EXPOSING DAJJAL | FEB 29, 2023"
+            image="./article34.jpg"
+            title="Islamic Eschatological analysis on the current geopolitical world order"
+            date="BY EXPOSING DAJJAL | MAY 11, 2023"
           />
         </a>
         <a href="/article28">
